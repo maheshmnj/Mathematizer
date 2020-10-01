@@ -1,0 +1,14 @@
+base_num = int(input("base number"))
+power = int(input("power"))
+def raise_to_power(base_num,power):
+    result=base_num**power
+    return result
+print(raise_to_power(base_num,power))
+
+
+def power(base,pow):
+    result=1
+    for index in range(pow):
+        result = result * base
+    return result
+print(power(10,2))
